@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="@string/keyword"
+        android:inputType="text"
+        android:title="Search by keyword" />
+
+    <ListPreference
+        android:defaultValue="@string/all"
+        android:entries="@array/genre_list"
+        android:entryValues="@array/genre_list"
+        android:key="@string/genre"
+        android:title="Search by genre" />
+
+
+</PreferenceScreen>

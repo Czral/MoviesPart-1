@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="genre_list">
+
+        <item>@string/action</item>
+        <item>@string/comedy</item>
+        <item>@string/drama</item>
+        <item>@string/family</item>
+        <item>@string/horror</item>
+
+    </string-array>
+
+
+</resources>

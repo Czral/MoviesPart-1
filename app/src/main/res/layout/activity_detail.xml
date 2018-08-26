@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.android.movies.DetailActivity">
+
+    <TextView
+        android:id="@+id/title_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:textSize="20sp"
+        android:layout_marginTop="4dp"
+        android:background="#388E3C"
+        android:gravity="center"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/poster"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="3"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        tools:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/plot_synopsis"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="4dp"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:maxLines="25"
+        android:padding="8dp"
+        android:scrollbars="vertical"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/release_date"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="#F57C00"
+        android:gravity="center"
+        android:textColor="#ffffff" />
+
+    <RatingBar
+        android:id="@+id/vote_rating_bar"
+        style="@style/Base.Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="10"
+        android:paddingTop="8dp"
+        android:paddingBottom="12dp"
+        android:stepSize="0.1" />
+
+
+</LinearLayout>
